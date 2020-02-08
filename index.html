@@ -15,9 +15,16 @@
 		<div class="alert alert-danger container " role="alert">
 			Some fields are missing!
 		</div>
+        <div class="form-row">
+        </div>
 		<form>
+            <div class="form-group col-md-4">
+                <input class="form-control form-control-lg" type="text" placeholder="xxxxxxxxxxx">
+                <input class="form-control" type="text" placeholder="00000000">
+                <input class="form-control form-control-sm" type="text" placeholder="Amount">
+            </div>
 			<div class="form-row">
-				<div class="form-group col-md-6">
+				<div class="form-group col-md-3">
 					<label for="inputEmail4">First Name</label>
 					<input type="text" class="form-control" placeholder="First Name">
                 </div>
@@ -39,7 +46,7 @@
                     </select>
                 </div>
                 <div class="form-group col-md-2">
-                    <label for="inputZip">Zip</label>
+                    <label for="inputZip">Postal</label>
                     <input type="text" class="form-control" id="inputZip">
                 </div>
             </div>
@@ -63,18 +70,14 @@
                     </div>
                 </div>
 			</div>
-            <div class="form-row">					
-                <div class="form-group">
-                    
-                <button type="submit" class="btn btn-primary">Sign in</button>
-                </div>
-            </div>
             <div class="form-group col-md-6">
                 <label for="exampleFormControlTextarea1">Message</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-            <button type="button" class="btn btn-primary btn-lg">Send</button>
-            <button type="button" class="btn btn-secondary btn-lg">Cancel</button>
+            <div class="form-group col-md-6">
+                <button type="button" class="btn btn-primary btn-lg">Send</button>
+                <button type="button" class="btn btn-secondary btn-lg">Cancel</button>
+            </div>
     </form>
     </div>
 </body>
